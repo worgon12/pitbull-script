@@ -16,7 +16,7 @@ sudo apt-get install software-properties-common -y
 sudo add-apt-repository ppa:bitcoin/bitcoin -y
 sudo apt-get update -y
 sudo apt-get install libdb4.8-dev libdb4.8++-dev -y
-sudo apt-get install git build-essential libssl1.0-dev libdb-dev libdb++-dev libboost-dev libboost-program-dev libboost-program-options-dev libboost-filesystem-dev libboost-thread-dev zlib1g-dev libqrencode-dev -y
+sudo apt-get install git build-essential libssl1.0-dev libdb-dev libdb++-dev libboost-dev libboost-program-options-dev libboost-filesystem-dev libboost-thread-dev zlib1g-dev libqrencode-dev -y
 echo "${GREEN}done${NC}"
 echo "${BLUE}Download Pitbull Source Code Github and Compile${NC}"
 sleep 5
